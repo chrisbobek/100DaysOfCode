@@ -3,7 +3,7 @@ print("Welcome to Python Pizza Delivery!")
 
 size = input("What size pizza do you want? S, M, or L ")
 
-add_pepporoni = input("Do you want pepperoni? Y or N ")
+add_pepperoni = input("Do you want pepperoni? Y or N ")
 
 extra_cheese = input("Do you want exta cheese? Y or N ")
 # Don't change the code above
@@ -21,4 +21,19 @@ pepperoni = 3
 
 # Cheese
 extra_cheese = 1
+
+total = 0
+
+if size == 'S':
+    total = small
+elif size == 'M':
+    total = medium
+else:
+    total = large
+
+if add_pepperoni == 'Y':
+    if size == 'S':
+        total += pepperoni_small
+    else:
+        total += pepperoni
 
