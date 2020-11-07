@@ -10,4 +10,15 @@ extra_cheese = input("Do you want exta cheese? Y or N ")
 
 # Write your code below this line
 
+# Size
+small = 15
+medium = 20
+large = 25
+
+# Pepperoni
+pepperoni_small = 2
+pepperoni = 3
+
+# Cheese
+extra_cheese = 1
 
