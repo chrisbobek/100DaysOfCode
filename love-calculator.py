@@ -6,3 +6,16 @@ name2 = input("What is their name? \n")
 
 # Write your code below this line
 
+true_total = 0
+love_total = 0
+
+# List of strings
+names = [name1, name2]
+
+# 'true' and 'love' strings converted to lists
+true_list = list("true")
+love_list = list("love")
+
+for name in names:
+
+
