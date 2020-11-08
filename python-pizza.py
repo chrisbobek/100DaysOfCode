@@ -1,11 +1,11 @@
 # Don't change the code below
 print("Welcome to Python Pizza Delivery!")
 
-size = input("What size pizza do you want? S, M, or L ")
+size = input("Which size pizza do you want? S, M, or L ")
 
 add_pepperoni = input("Do you want pepperoni? Y or N ")
 
-extra_cheese = input("Do you want exta cheese? Y or N ")
+extra_cheese = input("Do you want extra cheese? Y or N ")
 # Don't change the code above
 
 # Write your code below this line
@@ -20,7 +20,7 @@ pepperoni_small = 2
 pepperoni = 3
 
 # Cheese
-extra_cheese = 1
+add_cheese = 1
 
 total = 0
 
@@ -36,4 +36,10 @@ if add_pepperoni == 'Y':
         total += pepperoni_small
     else:
         total += pepperoni
+
+if extra_cheese:
+    total += add_cheese
+
+print(f"Your final bill is: ${total}")
+
 
