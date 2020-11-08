@@ -17,5 +17,11 @@ true_list = list("true")
 love_list = list("love")
 
 for name in names:
+    for letter in true_list:
+        true_total += name.count(letter)
+    for lettter in love_list:
+        love_total += name.count(letter)
 
+print(f"true: {true_total}")
+print(f"love: {love_total}")
 
