@@ -30,9 +30,9 @@ strScore = f"{true_total}{love_total}"
 intScore = int(strScore)
 
 # Determine score
-if intScore < 10 and intScore > 90:
+if (intScore < 10) or (intScore > 90):
     print(f"Your score is {intScore}, you go together like coke and mentos.")
-elif intScore > 40 and intScore < 50:
+elif (intScore >= 40) and (intScore <= 50):
     print(f"Your score is {intScore}, you are alright together.")
 else:
     print(f"Your score is {intScore}.")
