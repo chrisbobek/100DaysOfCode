@@ -1,3 +1,5 @@
+import random
+
 rock = '''
     _______
 ---'   ____)
@@ -25,7 +27,18 @@ scissors = '''
 ---.__(___)
 '''
 
-print("Type 0 for rock, 1 for paper, or 2 for scissors")
-print("Go!")
+options = [rock, paper, scissors]
+
+instructions = "\nType 0 for rock, 1 for paper, or 2 for scissors. Go!\n"
+player = input(instructions)
+player = int(player)
+
+print("You chose:\n")
+print(options[player])
+
+system = random.randint(0,2)
+print("\nThe system chose:\n")
+print(options[system])
+
 
 
