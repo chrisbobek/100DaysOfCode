@@ -49,7 +49,7 @@ grid = [rock_row, paper_row, scissors_row]
 instructions = "\nType 0 to throw down a rock, 1 to throw down paper, or 2 to throw down scissors.\nGo!\n"
 player = input(instructions)
 player = int(player)
-print("\nYou chose:")
+print("\nPlayer chose:")
 print(options[player])
 
 system = random.randint(0,2)
